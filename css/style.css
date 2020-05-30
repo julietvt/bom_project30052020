@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rangeWrapper{
+    min-width: 320px;
+    box-sizing: border-box;
+    border-color: grey;
+    color: black;
+    border: 30px solid lightgrey;
+}
+label{
+    display: flex;
+}
+label input[type="range"]{
+    flex: 1;
+}
+label span{
+    flex-basis: 50px;
+    flex-grow: 0.2;
+    max-width: 100px;
+}
+
+/*
+input[type="range"]{
+    min-width: 80%;
+}
+*/
